@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - ABV Home Revival</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/dark-theme.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="logo">LOGO</div>
+            <div class="nav-links">
+                <a href="index.html">Главная</a>
+                <a href="services.html">Услуги</a>
+                <a href="contacts.html" class="active">Контакты</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <h1>Свяжитесь с нами</h1>
+            <p class="subtitle">Мы всегда рады ответить на ваши вопросы</p>
+        </section>
+
+        <section class="contact-content">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3>Телефон</h3>
+                    <p>Александр: +1 (224) 460-0133</p>
+                    <p>Богдан: +1 509-49-81-81-0</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h3>Email</h3>
+                    <p>abvhomerevival.gmail.com</p>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h3>Адрес</h3>
+                    <p>г. Город</p>
+                    <p>ул. Улица, д. XX</p>
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <h2>Форма обратной связи</h2>
+                <form action="https://formsubmit.co/bitcoins829@gmail.com" method="POST">
+                    <!-- Настройки FormSubmit -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="thanks.html">
+                    <input type="hidden" name="_subject" value="Новое сообщение с сайта">
+                    
+                    <div class="form-group">
+                        <label for="name">Ваше имя *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email для связи *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Сообщение *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">Отправить сообщение</button>
+                </form>
+                <p class="form-note" style="margin-top: 20px; color: #666; font-size: 0.9em;">
+                    * Поля, отмеченные звездочкой, обязательны для заполнения
+                </p>
+            </div>
+        </section>
+
+        <section class="social-section">
+            <h2>Мы в социальных сетях</h2>
+            <div class="social-grid">
+                <a href="#" class="social-item">
+                    <div class="social-icon">Facebook</div>
+                </a>
+                <a href="#" class="social-item">
+                    <div class="social-icon">Instagram</div>
+                </a>
+                <a href="#" class="social-item">
+                    <div class="social-icon">LinkedIn</div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Контакты</h4>
+                <p><i class="fas fa-phone"></i> Александр: +1 (224) 460-0133</p>
+                <p><i class="fas fa-phone"></i> Богдан: +1 509-49-81-81-0</p>
+                <p><i class="fas fa-envelope"></i> abvhomerevival.gmail.com</p>
+            </div>
+            <div class="footer-section">
+                <h4>Адрес</h4>
+                <p>г. Город, ул. Улица, д. XX</p>
+            </div>
+            <div class="footer-section">
+                <h4>Социальные сети</h4>
+                <div class="social-links">
+                    <a href="#" target="_blank">Facebook</a>
+                    <a href="#" target="_blank">Instagram</a>
+                    <a href="#" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ABV Home Revival. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
